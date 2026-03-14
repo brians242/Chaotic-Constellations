@@ -2,6 +2,8 @@
 
 An interactive installation where digital collection meets physical feedback. Using **p5.js** and **Arduino**, you gather floating "stars" on your screen that physically illuminate colored LEDs. When you've gathered enough, you can "release" them, triggering a physics-based scatter animation on screen and resetting your physical lights.
 
+p5.js link: https://editor.p5js.org/briansu242/sketches/0YpYW_Nwy
+
 ---
 
 ## How it works
@@ -17,7 +19,7 @@ The project is a bridge between a virtual environment and physical hardware:
 
 ### Hardware Wiring
 
-
+Tinkercad design: https://www.tinkercad.com/things/9KllqzHOBYw-3-led-button-with-p5js?sharecode=iBwLngYCx_VlYXaZ4FTLFNeyS1jL2C52Gc0Eq085uVY
 
 Connect your components to the Arduino as follows:
 - **LEDs**: Connect the anodes (long legs) to Pins **11 (Gold)**, **10 (Rose)**, and **9 (Frost)** using 220Ω resistors.
