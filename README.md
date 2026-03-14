@@ -1,4 +1,4 @@
-# Starlight Collector ✦
+# Starlight Collector *
 
 An interactive installation where digital collection meets physical feedback. Using **p5.js** and **Arduino**, you gather floating "stars" on your screen that physically illuminate colored LEDs. When you've gathered enough, you can "release" them, triggering a physics-based scatter animation on screen and resetting your physical lights.
 
@@ -91,7 +91,7 @@ Check the `delay(200)` in the Arduino code. This "debounces" the physical switch
 
 ---
 
-## ✨ Credits
+## Credits
 
 - **p5.js** — Visuals and interaction framework.
 - **Web Serial API** — Browser-to-Hardware communication.
