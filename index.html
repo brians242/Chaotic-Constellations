@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <div id="ui-layer">
+      <div class="controls">
+        <button id="mode0" class="mode-btn active">Gold</button>
+        <button id="mode1" class="mode-btn">Rose</button>
+        <button id="mode2" class="mode-btn">Frost</button>
+        <button id="connect-btn" style="margin-left: 40px;">Connect Arduino</button>
+      </div>
+      
+      <div id="stats">
+        <div><span class="stat-val" id="cnt0" style="color:#f5d87a">0</span><span class="stat-lbl">Gold</span></div>
+        <div><span class="stat-val" id="cnt1" style="color:#f7b8c4">0</span><span class="stat-lbl">Rose</span></div>
+        <div><span class="stat-val" id="cnt2" style="color:#a8d8f0">0</span><span class="stat-lbl">Frost</span></div>
+      </div>
+
+      <button id="release-btn" class="hidden">Release ✦</button>
+      <button id="reset-btn" class="hidden">Start Over ↺</button>
+    </div>
+    <main></main>
+    <script src="sketch.js"></script>
+  </body>
+</html>

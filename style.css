@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap');
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #05040f;
+  font-family: 'Cinzel', serif;
+  overflow: hidden;
+}
+
+canvas {
+  display: block;
+}
+
+#ui-layer { 
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  height: 100%;
+  pointer-events: none; 
+  z-index: 10; 
+  color: white; 
+}
+
+.controls { 
+  display: flex; 
+  justify-content: center; 
+  gap: 20px; 
+  padding: 20px; 
+  pointer-events: all; 
+}
+
+#stats { 
+  position: fixed; 
+  bottom: 20px; 
+  left: 50%; 
+  transform: translateX(-50%); 
+  display: flex; 
+  gap: 40px; 
+  text-align: center; 
+}
+
+.stat-val { font-size: 20px; display: block; }
+.stat-lbl { font-size: 9px; opacity: 0.5; }
+
+button { 
+  background: rgba(255, 255, 255, 0.05); 
+  border: 1px solid rgba(255,255,255,0.2); 
+  color: rgba(255,255,255,0.6); 
+  padding: 10px 20px; 
+  cursor: pointer; 
+  letter-spacing: 2px; 
+  text-transform: uppercase; 
+  font-size: 10px; 
+  transition: 0.3s; 
+  pointer-events: all !important; 
+}
+
+button:hover { 
+  border-color: white; 
+  color: white; 
+  background: rgba(255, 255, 255, 0.1);
+}
+
+#release-btn, #reset-btn {
+  position: fixed; 
+  bottom: 80px; 
+  left: 50%; 
+  transform: translateX(-50%);
+  font-weight: bold;
+}
+
+#release-btn { border-color: #f5d87a; color: #f5d87a; }
+#reset-btn { border-color: #a8d8f0; color: #a8d8f0; }
+
+.hidden { display: none !important; }
